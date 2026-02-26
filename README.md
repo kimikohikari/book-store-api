@@ -93,10 +93,10 @@ pip install -r requirements.txt
 ### 4️⃣ Переменные окружения
 
 Создайте файл .env:
-
+```bash
 DATABASE_URL=postgresql://user:password@localhost:5432/bookstore
 SECRET_KEY=your_secret_key
-
+```
 ### 5️⃣ Запуск приложения
 
 ```bash
@@ -107,8 +107,8 @@ uvicorn app.main:app --reload
 📌 Документация API
 
 Swagger UI доступен по адресу:
-
+```bash
 http://127.0.0.1:8000/docs
-
+```
 
 
